@@ -1,0 +1,2 @@
+python -m esptool --chip auto --port /dev/ttyACM0 --baud 115200 \
+        write-flash 0x0 build/pyserial_firm.ino.ino.merged.bin
